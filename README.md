@@ -1,1 +1,4 @@
 # logicaDeProgramacion
+- Rectangulo
+- Main
+- MainDos
