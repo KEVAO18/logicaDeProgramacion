@@ -1,4 +1,3 @@
 # logicaDeProgramacion
 - Rectangulo
-- Main
-- MainDos
+- Persona
