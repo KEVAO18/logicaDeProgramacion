@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>AppEmpleadoNueva</label>
+	</settings>
+	<users>
+		<user>
+			<path>AppEmpleadoNueva.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>AppEmpleadoNueva.jcp</path>
+		</project>
+	</projects>
+</workspace>
