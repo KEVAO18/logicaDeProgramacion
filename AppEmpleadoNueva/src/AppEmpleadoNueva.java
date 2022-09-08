@@ -23,10 +23,14 @@ public class AppEmpleadoNueva {
     	
     	s = leer.nextDouble();
     	
+    	System.out.print("\n----------------------------------------\n");
+    	
     	nn = new Empleado(n, id, s);
     	
     	nn.actualizarSalario();
     	
     	nn.mostrarColillaPago();
+    	
+    	System.out.print("\n----------------------------------------\n");
     }
 }

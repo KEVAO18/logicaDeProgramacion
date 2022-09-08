@@ -1,16 +1,45 @@
 
 class Empleado {
-	String name;
-	int id;
-	double salario;
+	private String name;
+	private int id;
+	private double salario;
 	
 	public Empleado(String n, int id, double s){
 	
-		this.name = n;
-		this.id = id;
-		this.salario = s;
+		this.setName(n);
+		this.setId(id);
+		this.setSalario(s);
 		
 	}
+	
+	//-------------------------- setters ------------------------------------------------------------
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	
+	public void setId(int id){
+		this.id = id;
+	}
+	
+	public void setSalario(double salario){
+		this.salario = salario;
+	}
+	
+	//-------------------------- getters ------------------------------------------------------------
+	
+	public String getName(){
+		return this.name;
+	}
+	
+	public int getId(){
+		return this.id;
+	}
+	
+	public double getSalario(){
+		return this.salario;
+	}
+	
 	
 	public void actualizarSalario(){
 	
